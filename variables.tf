@@ -16,3 +16,11 @@ variable "databaseVersion" {
 variable "databaseTier" {
   type = string
 }
+
+//_______________VPC_______________//
+variable "subnetPublicCidrs" {
+  type = list(string)
+}
+variable "subnetPrivateCidrs" {
+  type = list(string)
+}
