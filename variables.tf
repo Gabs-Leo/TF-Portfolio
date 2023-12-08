@@ -24,3 +24,6 @@ variable "subnetPublicCidrs" {
 variable "subnetPrivateCidrs" {
   type = list(string)
 }
+variable "registryUrl" {
+  type = string
+}
